@@ -1,0 +1,280 @@
+2017-06-19 16:46:06 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown alias: -migrationPath' in C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Controller.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#1 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#2 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#3 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\yii(27): yii\base\Application->run()
+#5 {main}
+2017-06-19 16:46:06 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-VB2D0POO'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-VB2D0POO'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\user\\OneDrive'
+    'OnlineServices' => 'Online Services'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'platformcode' => 'KV'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'RegionCode' => 'EMEA'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LAPTOP-VB2D0POO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-VB2D0POO'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497883566.2199
+    'REQUEST_TIME' => 1497883566
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+        1 => 'migrate'
+        2 => '-migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-06-19 16:46:18 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown alias: -migrationPath' in C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Controller.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#1 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#2 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#3 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\yii(27): yii\base\Application->run()
+#5 {main}
+2017-06-19 16:46:18 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-VB2D0POO'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-VB2D0POO'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\user\\OneDrive'
+    'OnlineServices' => 'Online Services'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'platformcode' => 'KV'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'RegionCode' => 'EMEA'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LAPTOP-VB2D0POO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-VB2D0POO'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497883578.0403
+    'REQUEST_TIME' => 1497883578
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+        1 => 'migrate'
+        2 => '-migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-06-19 16:50:00 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "rbac/init".' in C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-19 16:50:00 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-VB2D0POO'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-VB2D0POO'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\user\\OneDrive'
+    'OnlineServices' => 'Online Services'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'platformcode' => 'KV'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'RegionCode' => 'EMEA'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LAPTOP-VB2D0POO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-VB2D0POO'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497883800.5618
+    'REQUEST_TIME' => 1497883800
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\yii-advanced-app-2.0.12\\advanced\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2017-06-19 16:51:43 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "rbac/init".' in C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\xampp\htdocs\yii-advanced-app-2.0.12\advanced\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-19 16:51:43 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-VB2D0POO'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-VB2D0POO'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\user\\OneDrive'
+    'OnlineServices' => 'Online Services'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'platformcode' => 'KV'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'RegionCode' => 'EMEA'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LAPTOP-VB2D0POO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-VB2D0POO'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497883903.5379
+    'REQUEST_TIME' => 1497883903
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
